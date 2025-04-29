@@ -1,0 +1,70 @@
+.header-buy{
+    font-size: 30px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.all-buy-content{
+    width: 48%;
+    height: 75vh;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 1.8%;
+    margin-left: 1%;
+    overflow-y: scroll;
+    color: white;
+    background-image: url(../../../public/produtosFundo.png);
+    background-size: contain;
+    border-radius: 20px;
+}
+
+.buy-content-profile{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.buy-content-profile ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 1%;
+    padding: 10px;
+
+}
+
+.list-buy-content ul{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    height: 7vh;
+    align-items: center;
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.753);
+    color: black;
+}
+
+.list-buy-content ul li{
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+.list-buy-content button{
+    position: absolute;
+    right: 0%;
+    height: 50%;
+    width: 4%;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.list-buy-content button:hover{
+    cursor: pointer;
+    scale: 0.95;
+    opacity: 1;
+}
