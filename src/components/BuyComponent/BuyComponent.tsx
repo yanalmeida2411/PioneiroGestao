@@ -36,7 +36,6 @@ const BuyComponent = () => {
               <button onClick={() => removeProduct(product.product_id)}>x</button>
             </ul>
           ))}
-
         </div>
       </div>
     </>

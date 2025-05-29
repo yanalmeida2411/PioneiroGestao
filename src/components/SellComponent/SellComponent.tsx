@@ -34,7 +34,6 @@ const SellComponent = () => {
                             <button onClick={() => removeProduct(product.product_id)}>X</button>
                         </ul>
                     ))}
-
                 </div>
             </div>
         </>

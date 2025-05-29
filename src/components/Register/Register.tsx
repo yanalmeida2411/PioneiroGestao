@@ -27,7 +27,6 @@ const Register = () => {
         setType("")
         setOrigin("")
     }
-
     return (
         <>
             <header className='header-title'>
